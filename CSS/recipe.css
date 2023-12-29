@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 63vw;
+    position: absolute;
+    background-color: thistle;
+}
+
+#navbar{
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: relative;
+    background-color: #f5f4f2;
+    background-image: linear-gradient(315deg, #f5f4f2 0%, #ff4081 74%);
+    /* background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    
+}
+
+nav{
+    padding:10px;
+    display: flex;
+    font-size: 32px;
+    color: white;
+    z-index: 1;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#logo{
+    font-size: 40px;
+}
+
+#buttons{
+    display:flex;
+    gap:20px;
+    font-size: 32px;
+}
+
+.footersec{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    min-height: 40px;
+    background-color: #f5f4f2;
+    background-image: linear-gradient(315deg, #f5f4f2 0%, #ff4081 74%);
+}
+
+.footersec p{
+    color: black;
+    font-size: 20px;
+}
+
+.contentbox{
+    width: 70%;
+    height: 800px;
+    display: flex;
+    margin: auto;
+    padding:5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border:1px solid black;
+    background-color: beige;
+    box-shadow: 0 0 50px black;
+}
+
+.item1{
+    display:flex;
+    justify-content: space-around;
+    padding: 5px;
+    font-size: large;
+    margin: 20px;
+    
+}
+.item2{
+    font-size: large;
+    display:flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.leftbox{
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rightbox{
+    position: relative;
+    display: flex;
+}
+
+.rightbox:hover{
+    transform: scale(1.1);
+    transition: linear 0.5s;
+}
+
+.rightbox:hover .overlay{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.overlay{
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.49);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+
+
