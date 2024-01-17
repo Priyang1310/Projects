@@ -1,0 +1,359 @@
+* {
+  font-family: "D-DIN-Bold", Arial, Verdana, sans-serif;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+} 
+
+.navbar {
+  /* background-color:black; */
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 150px;
+  color: white;
+  gap: 90px;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+}
+
+.navbar.scrolled {
+  opacity: 0;
+}
+
+.navcontent {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+}
+#menu-botton{
+  height:100px;
+  width:200px;
+}
+#homeimage {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  background-position: center;
+}
+
+.navbar img {
+  height: 70px;
+  width: 170px;
+}
+
+.ri-menu-line {
+  color: white;
+  width: 10px;
+  position: absolute;
+  display: flex;
+  top:43%;
+  left:73.3%;
+  justify-content: flex-start;
+  align-items: center;
+  /* color:rgb(255, 253, 253); */
+}
+
+#mb i{
+  width: 13px;
+  height: 14px;
+  left:80.3%;
+  z-index: -1;
+  /* z-index: 999999; */
+  top: 43%;
+  position: absolute;
+}
+
+.navbar button {
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.007);
+  height: 14px;
+  width: 7px;
+  right: 20%;
+  /* background-color: #fff; */
+  /* margin-right: 100px; */
+  border: none;
+}
+
+.shop {
+  text-transform: uppercase;
+  font-size: 1px;
+  display: flex;
+  font-weight: 600;
+  z-index: -1;
+}
+
+.shop h4{
+  width: 5px;
+  margin-left: 150px;
+}
+
+#img1 {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  padding: 0px;
+  margin: 0px;
+  background-position: center;
+}
+
+#img2 {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  background-position: center;
+}
+
+#video {
+  height: auto;
+  width: 100%;
+  z-index: -1;
+  /* padding:0px;
+    margin:0px; */
+  position: relative;
+  background-position: center;
+}
+
+#videotext {
+  position: absolute;
+  /* bottom: 1%; */
+}
+
+
+.imgvideocontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#videotext h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  /* position: absolute; */
+  z-index: 1;
+  transform: translate(0, 455%);
+  color: white;
+  margin-left: 90px;
+}
+
+#videotext h2 {
+  font-size: 20px;
+  z-index: 1;
+  font-weight: 100;
+  margin-left: 90px;
+  color: white;
+  /* position: absolute; */
+  transform: translate(0, 2150%);
+  color: white;
+}
+
+#videotext button {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 90px;
+  color: white;
+  /* position: absolute; */
+  transform: translate(0, 950%);
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  border-color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  height: 50px;
+  width: 150px;
+  text-decoration: none;
+}
+
+#innertext h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  transform: translate(0, -550%);
+  color: white;
+  margin-left: 90px;
+}
+
+#innertext h2 {
+  font-size: 20px;
+  z-index: 1;
+  font-weight: 100;
+  margin-left: 90px;
+  color: white;
+  position: absolute;
+  transform: translate(0, -1300%);
+  color: white;
+}
+
+#innertext button {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 90px;
+  color: white;
+  position: absolute;
+  transform: translate(0, -350%);
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  border-color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  height: 50px;
+  width: 150px;
+  text-decoration: none;
+}
+
+#videotext button a {
+  text-decoration: none;
+  color: white;
+}
+
+#innertext button a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  margin: 0px;
+  height: 100px;
+  position: absolute;
+  font-size: 14px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* #menu-button:cli */
+
+#button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc; /* Optional border */
+  border-radius: 5px; /* Optional rounded corners */
+  background-color: transparent;
+  color: white;
+  text-decoration: none; /* Remove underline for anchor tag */
+  position: relative; /* Needed for background positioning */
+  transition: 0.7s ease-in-out; /* Transition background movement */
+}
+
+.menu{
+  width:25vw;
+  height:120vh;
+  left: 62.5%;
+  top:0.1%;
+  opacity: 0;
+  /* display:none; */
+  position: absolute;
+  z-index: -1;
+  background-color: black;
+  color:white;
+  text-align: center;
+  font-weight: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-end;
+}
+
+.menu button{
+  /* display:none; */
+  margin-top: 60px;
+  margin-right: 40px;
+}
+
+.menu h4{
+  font-size: 13.3px;
+  margin-right: 50px;
+  height:13px;
+  text-align: right;
+  width: 290px;
+  border-bottom: 0.7px solid rgba(103, 101, 101, 0.223);
+  transition: all 0.5s ease-in-out;
+}
+
+.menu h4:hover{
+  opacity:0.5;
+}
+#bt{
+  height: 25px;
+  width: 20px;
+  /* background-color: #fff; */
+  transform: translateX(-100);
+  transition: 1.5s;
+  margin-top: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+#button:hover {
+  background-color: white;
+  background-position: 100% 100%; /* Move background from bottom-left to top-right */
+}
+
+#button:hover a{
+  color: black;
+}
+
+.navcontent a,.shop a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  font-size: 14px;
+}
+
+.navcontent a::before,.shop a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.navcontent a:hover:before ,.shop a:hover::before {
+  transform: scaleX(1);
+}
+
+.navcontent a::after,.shop a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out 0.2s;
+  /* Delay the right-to-left animation */
+}
+
+.navcontent a:hover::after,.shop a:hover::after {
+  transform: scaleX(1);
+}
