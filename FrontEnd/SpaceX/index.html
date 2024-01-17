@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+      </svg> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="logoimage.jpg" alt="SpaceX" class="logoimage">
+        <section class="navcontent">
+
+            <a href="#">Falcon 9</a>
+            <a href="#">Dragon</a>
+            <a href="#">Starship</a>
+            <a href="#" title="Human">Human SpaceFlight</a>
+            <a href="#">rideshare</a>
+            <a href="#">Starshield</a>
+            <a href="#">Starlink</a>
+        </section>
+
+        <section class="shop">
+            <h4 style="font-size:14px">Shop</h4>
+            <!-- <a href="#" style="font-size: 14px">Shop</a> -->
+        </section>
+        <button id="mb" onclick="func()"><i class="ri-menu-line"></i></button>
+        <div class="menu">
+            <button id="bt" style="color: white;" onclick="func1()">X</button>
+            <h4>MISSION</h4>
+            <h4>LAUNCHES</h4>
+            <h4>CAREERS</h4>
+            <h4>UPDATES</h4>
+            <h4>SHOP</h4>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="imgvideocontainer">
+
+            <img src="homeimage.jpg" alt="rocket" id="homeimage">
+            <div id="innertext">
+                <h2>UPCOMING LAUNCH</h2>
+                <h1>OVZON 3 MISSION</h1>
+                <button id="button"><a href="#">WATCH</a></button>
+            </div>
+            <img src="img1old.jpg" alt="rocket" id="img1">
+            <div id="innertext">
+                <h2>RECENT LAUNCH</h2>
+                <h1>USSF-52 MISSION</h1>
+                <button id="button"><a href="#">REWATCH</a></button>
+            </div>
+            <img src="img3.jpg" alt="rocket" id="img1">
+            <div id="innertext">
+                <h2>RECENT LAUNCH</h2>
+                <h1>STARLINK MISSION</h1>
+                <button id="button"><a href="#">REWATCH</a></button>
+            </div>
+            <img src="img2laptop.jpg" alt="rocket" id="img2">
+            <div id="innertext">
+                <h2>RECENT LAUNCH</h2>
+                <h1>STARLINK MISSION</h1>
+                <button id="button"><a href="#">REWATCH</a></button>
+            </div>
+            <div class="videotextcontainer">
+                <div id="videotext">
+                    <h2>RECENT LAUNCH</h2>
+                    <h1>STARSHIP'S SECOND<br>FLIGHT TEST</h1>
+                    <button id="button"><a href="#">LEARN MORE</a></button>
+                </div>
+                <video autoplay muted loop src="OTF_2_Launch_Checkpoint_Slo_Mo_1920_1080_4ef903451e.mp4" alt="launching"
+                    id="video">
+
+            </div>
+        </div>
+
+        <footer>
+            <h5>SPACEX&copy;2023</h5>
+            <h5>PRIVACY POLICY</h5>
+            <h5>SUPPLIERS</h5>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
