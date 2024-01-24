@@ -57,16 +57,18 @@ body {
 
 video {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
     position: fixed;
+    overflow-x: hidden;
+    /* overflow: hidden; */
     z-index: -1;
 }
 
 #main {
     position: relative;
     background-color: rgba(0, 0, 0, 0.37);
-
+    overflow: hidden;
 }
 
 #page1 {
@@ -110,8 +112,8 @@ video {
 }
 
 #page1 #arrow {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     position: absolute;
     /* background-color: red; */
     display: flex;
@@ -125,10 +127,10 @@ video {
     transition: all ease 0.5s;
 }
 
-#page1 #arrow img{
-    height:50px;
-    width: 50px;
+#page1 .bx-down-arrow-alt{
+    font-size: 3rem;
     border-radius: 20px;
+    color: black;
 }
 
 #page1 #arrow:hover {
