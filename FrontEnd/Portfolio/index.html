@@ -15,7 +15,7 @@
         <div class="cover cover-left">
 
         </div>
-        <div class="cover cover-right turn">
+        <div class="cover cover-right">
 
         </div>
 
@@ -24,11 +24,11 @@
                 <div class="profile">
                     <img src="profile-pic.png" alt="Profile Photo">
                     <h1>Priyang Desai</h1>
-                    <h3>Web Developer</h3>
+                    <h3>Front-End Developer</h3>
                     <div class="social-media">
                         <a href=""><i class='bx bxl-facebook'></i></a>
                         <a href=""><i class='bx bxl-twitter'></i></a>
-                        <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                        <a href="www.linkedin.com/in/priyang-desai1310"><i class='bx bxl-linkedin-square'></i></a>
                         <a href=""><i class='bx bxl-instagram-alt'></i></a>
 
                     </div>
@@ -37,7 +37,7 @@
                         Development | B.tech | CSE | NU'2026</p>
                     <div class="btn-box">
                         <a href="#" class="btn" download="Resume.pdf">Download Resume</a>
-                        <a href="#" class="btn">Contact Me</a>
+                        <a href="#" id="contactbtn" class="btn">Contact Me</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <span class="number-page">1</span>
-                    <span class="arrow next" data-page="turn-1">
+                    <span class="arrow" data-page="turn-1">
                         <i class='bx bx-chevron-right'></i>
                     </span>
                 </div>
@@ -146,29 +146,31 @@
                     <h1 class="title">My Services</h1>
                     <div class="service-box">
                         <div class="service-content">
-                            <i class='bx bx-code-alt' ></i>
+                            <i class='bx bx-code-alt'></i>
                             <h3>Responsive Website Development:</h3>
                             <p>
-                                I create beautiful and user-friendly websites that look great on all devices, from desktops to mobile phones.
+                                I create beautiful and user-friendly websites that look great on all devices, from
+                                desktops to mobile phones.
                             </p>
                         </div>
                         <div class="service-content">
-                            <i class='bx bx-code-alt' ></i>
+                            <i class='bx bx-code-alt'></i>
                             <h3>E-commerce Website Development: </h3>
                             <p>
-                                I develop high-converting e-commerce websites that boost sales and improve customer satisfaction.
+                                I develop high-converting e-commerce websites that boost sales and improve customer
+                                satisfaction.
                             </p>
                         </div>
                         <div class="service-content">
-                            <i class='bx bx-code-alt' ></i>
-                            <h3>Front-End Optimization:  </h3>
+                            <i class='bx bx-code-alt'></i>
+                            <h3>Front-End Optimization: </h3>
                             <p>
                                 I optimize existing websites for speed, performance, and accessibility.
                             </p>
                         </div>
                     </div>
                     <span class="number-page">3</span>
-                    <span class="arrow next" data-page="turn-1">
+                    <span class="arrow" data-page="turn-2">
                         <i class="bx bx-chevron-right"></i>
                     </span>
                 </div>
@@ -179,17 +181,24 @@
                         <div class="skill-content">
                             <h3>Front-End</h3>
                             <div class="content">
-                                <span><i class='bx bxl-html5' ></i>HTML</span>
-                                <span><i class='bx bxl-css3' ></i>CSS</span>
-                                <span><i class='bx bxl-javascript' ></i>JavaScript</span>
-                                <span><i class='bx bxl-c-plus-plus'></i>C++</span>
+                                <span><i class='bx bxl-html5'></i>HTML</span>
+                                <span><i class='bx bxl-css3'></i>CSS</span>
+                                <span><i class='bx bxl-javascript'></i>JavaScript</span>
                                 <!-- <span><i class='bx bxl-tailwind-css' ></i>Tailwind</span> -->
                             </div>
                         </div>
                         <div class="skill-content">
                             <h3>Back-End</h3>
                             <div class="content">
-                                <span><i class='bx bxl-nodejs' ></i>Node</span>
+                                <span><i class='bx bxl-nodejs'></i>Node</span>
+                            </div>
+                        </div>
+                        <div class="skill-content">
+                            <h3>Other Programming Languages Known</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-c-plus-plus'></i>C++</span>
+                                <span><i class='bx bxl-java'></i>Java</span>
+                                <!-- <span><i class='bx bxl-tailwind-css' ></i>Tailwind</span> -->
                             </div>
                         </div>
                     </div>
@@ -201,7 +210,7 @@
             </div>
 
             <!--Page 5(Contact-me) -->
-             <div class="book-page page-right">
+            <div class="book-page page-right">
                 <div class="page-front">
                     <h1 class="title">Contact Me!</h1>
                     <div class="contact-box">
@@ -218,9 +227,25 @@
                         <i class='bx bxs-user'></i>
                     </a>
                 </div>
-            </div> -->
+                <div class="page-back">
+                    <h1 class="title">Contact Me!</h1>
+                    <div class="contact-box">
+                        <form action="#">
+                            <input type="text" class="field" placeholder="Full Name" required>
+                            <input type="email" class="field" placeholder="Email Address" required>
+                            <textarea cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                            <input type="submit" class="btn" id="contact-submit-btn" value="Send Message">
+                        </form>
+                    </div>
+                    <a href="#" class="back-to-profile">
+                        <p>Profile</p>
+                        <i class='bx bxs-user'></i>
+                    </a>
+                </div>
+
+            </div>
         </div>
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
