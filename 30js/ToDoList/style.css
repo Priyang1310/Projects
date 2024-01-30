@@ -141,7 +141,8 @@ span:hover{
     display: flex;
     justify-content: center;
     margin-left: -6.5rem;
-    padding: 1rem 3rem 1rem;
+    
+    padding: 3rem 3rem 1rem;
   }
 }
 
